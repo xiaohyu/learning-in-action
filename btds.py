@@ -1,7 +1,4 @@
-import btds
-import importlib
-importlib.reload(btds)
-from btds import *
+import numpy
 
 def test():
     """fdsaf d"""
@@ -10,6 +7,7 @@ def test():
 
 def test1():
     """fdsaf dd"""
-    print('foo2')
+    s = numpy.sqrt(3)
+    print(s)
     return
 
